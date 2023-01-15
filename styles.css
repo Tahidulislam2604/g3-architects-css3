@@ -20,7 +20,7 @@ body {
     padding-top: 50px;
     padding-right: 240px;
     display: flex;
-    gap: 32em;
+    gap: 36%;
     align-items: center;
 }
 
@@ -74,4 +74,124 @@ body {
     width: 75%;
     height: 700px;
     margin-left: 12.5%
+}
+
+/* Quick Feature Styles */
+.quick-feature {}
+
+.quick-feature-description {
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 154px;
+    margin-bottom: 170px;
+}
+
+.quick-feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.quick-feature-img {
+    width: 17.8%;
+    height: 17.8%;
+    border-radius: 8px;
+    border: none;
+}
+
+.quick-feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.quick-feature-title-info-1 {
+    font-weight: 700;
+    color: #131313;
+}
+
+.quick-feature-title-info {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.quick-feature-info {
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 45px;
+}
+
+.btn {
+    margin-left: 0;
+}
+
+/* Features you will Love & Enjoy Styles */
+.love-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.love-features-description {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.love-features-description-1 {
+    width: 40%;
+}
+
+.love-features-description-2 {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.love-features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 82px;
+}
+
+.love-features-title-1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.love-features-info {
+    color: #727272;
+    width: 520px;
+    height: 78px;
+    white-space: revert-layer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.love-features-img img {
+    width: 70%;
+    height: 1060px;
+}
+
+.experience {
+    width: 342px;
+    height: 200px;
+}
+
+.span {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.span-1 {
+    font-weight: 500;
+    font-size: 25px;
 }
