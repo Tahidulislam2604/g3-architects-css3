@@ -1,0 +1,77 @@
+/* Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section styles */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.header nav {
+    padding-left: 224px;
+    padding-top: 50px;
+    padding-right: 240px;
+    display: flex;
+    gap: 32em;
+    align-items: center;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-li {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.arc-description {
+    text-align: center;
+    color: #131313;
+}
+
+.architect-group {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.architect-description {
+    color: #727272;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 45.5%;
+    border: none;
+    margin-top: 33px;
+    margin-bottom: 50px;
+}
+
+.btn-primary:hover {
+    color: aqua;
+}
+
+.arc-img img {
+    width: 75%;
+    height: 700px;
+    margin-left: 12.5%
+}
