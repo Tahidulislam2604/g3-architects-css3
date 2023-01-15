@@ -77,7 +77,6 @@ body {
 }
 
 /* Quick Feature Styles */
-.quick-feature {}
 
 .quick-feature-description {
     display: flex;
@@ -195,3 +194,59 @@ body {
     font-weight: 500;
     font-size: 25px;
 }
+
+/* some facts style */
+.facts-info {
+    margin-left: 12.5%;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 130px;
+    margin-bottom: 24px;
+}
+
+.facts-title-info {
+    color: #727272;
+    width: 542px;
+    height: 52px;
+}
+
+.facts-icons {
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+.facts-icon {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding-top: 46px;
+    padding-left: 36px;
+    padding-right: 37px;
+    padding-bottom: 60px;
+}
+
+.facts-icon-rating {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.facts-icon-info {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 0em;
+}
+
+/* sponsors styles */
